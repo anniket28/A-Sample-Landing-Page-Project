@@ -1,0 +1,142 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(60, 60, 255);
+    display: flex;
+    position: sticky;
+}
+.icon{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: baseline;
+    padding: 25px;
+    margin-left: 133px;
+}
+.icon:hover{
+    color: rgb(165, 165, 165);
+}
+nav{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 112px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 600px;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#aboutus{
+    display: flex;
+    background-color: lightgray;
+}
+.as{
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.as h1{
+    text-align: center;
+    font-size: 30px;
+}
+.as p{
+    text-align: justify;
+}
+.lp{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.lp img{
+    width: 70%;
+}
+#qa{
+    display: flex;
+    background-color: rgba(172, 255, 47, 0.603);
+}
+.wtu{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.wtu img{
+    width: 75%;
+    border-radius: 5px;
+}
+.wtuf{
+    /* display: flex; */
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.wtuf h1{
+    text-align: center;
+    font-size: 30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea{
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+}
+input[type="submit"],
+input[type="reset"]{
+    background-color: blue;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin:3px 3px;
+    width: 48.3%;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(61, 61, 255);
+}
+input[type="reset"]:hover{
+    background-color: rgb(61, 61, 255);
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
